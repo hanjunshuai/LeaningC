@@ -9,4 +9,8 @@ Java_hjs_zhi_com_ndk_MainActivity_stringFromJNI(
         jobject /* this */) {
     std::string hello = "Hello from C++";
     return env->NewStringUTF(hello.c_str());
+}extern "C"
+JNIEXPORT jint JNICALL
+Java_hjs_zhi_com_ndk_JniUtils_add(JNIEnv *env, jclass type, jint x, jint y) {
+    // TODO
 }

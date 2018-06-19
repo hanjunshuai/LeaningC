@@ -13,7 +13,23 @@ extern "C" {
  * Signature: ()Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_hjs_zhi_com_ndk_JniUtils_helloFromC
-        (JNIEnv *, jclass);
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     hjs_zhi_com_ndk_JniUtils
+ * Method:    add
+ * Signature: (II)I
+ */
+JNIEXPORT jint JNICALL Java_hjs_zhi_com_ndk_JniUtils_add
+  (JNIEnv *, jclass, jint, jint);
+
+/*
+ * Class:     hjs_zhi_com_ndk_JniUtils
+ * Method:    sayHello
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_hjs_zhi_com_ndk_JniUtils_sayHello
+  (JNIEnv *, jclass, jstring);
 
 #ifdef __cplusplus
 }

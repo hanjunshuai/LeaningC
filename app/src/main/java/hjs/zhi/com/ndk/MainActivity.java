@@ -2,6 +2,7 @@ package hjs.zhi.com.ndk;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,19 +12,20 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
-    static {
-        System.loadLibrary("Hello");
-    }
+    JniUtils jniUtils;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        jniUtils = new JniUtils();
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
-        tv.setText(JniUtils.helloFromC());
+        tv.setText(jniUtils.helloFromC());
+//        tv.setText(JniUtils.add(3, 2));
+        Log.e(MainActivity.class.getName(), jniUtils.add(3, 2) + "");
+        Log.e(MainActivity.class.getName(), jniUtils.sayHello("I am from java"));
     }
 
     /**
