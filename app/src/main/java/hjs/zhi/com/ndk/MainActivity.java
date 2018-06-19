@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         for (int j = 0; j < i.length; j++) {
             Log.e(MainActivity.class.getName(), "i[" + j + "]====" + i[j]);
         }
+
+        int codeTure = jni.checkPwd("123");
+        int codeFalse = jni.checkPwd("1233");
+
+        Log.e(MainActivity.class.getName(), "result===" + codeTure + "    result===" + codeFalse);
     }
 
     /**
