@@ -24,6 +24,12 @@ Hello
 SHARED
 src/main/jni/Hello.cpp
 )
+
+add_library(
+Test
+SHARED
+src/main/jni/Test.c
+)
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
 # default, you only need to specify the name of the public NDK library

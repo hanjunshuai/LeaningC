@@ -1,4 +1,5 @@
 E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
 E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/Hello.dir
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
 E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/Test.dir
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir

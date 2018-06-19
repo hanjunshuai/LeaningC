@@ -13,12 +13,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     JniUtils jniUtils;
+    JNI jni;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         jniUtils = new JniUtils();
+        jni = new JNI();
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
@@ -26,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
 //        tv.setText(JniUtils.add(3, 2));
         Log.e(MainActivity.class.getName(), jniUtils.add(3, 2) + "");
         Log.e(MainActivity.class.getName(), jniUtils.sayHello("I am from java"));
+
+        int i[] = {1, 2, 3, 4, 5};
+        jni.intcreaseArray(i);
+        for (int j = 0; j < i.length; j++) {
+            Log.e(MainActivity.class.getName(), "i[" + j + "]====" + i[j]);
+        }
     }
 
     /**

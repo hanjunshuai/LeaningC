@@ -91,15 +91,6 @@ build ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libHello.so:
   TARGET_PDB = Hello.so.dbg
 
 #############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\workspace\git\NDK\app\.externalNativeBuild\cmake\release\armeabi-v7a && E:\android\sdk\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-#############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
@@ -109,10 +100,50 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target Test
+
+build CMakeFiles/Test.dir/src/main/jni/Test.c.o: C_COMPILER__Test ../../../../src/main/jni/Test.c
+  DEFINES = -DTest_EXPORTS
+  DEP_FILE = CMakeFiles\Test.dir\src\main\jni\Test.c.o.d
+  FLAGS = -isystem E:/android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC
+  IN_ABS = E:\workspace\git\NDK\app\src\main\jni\Test.c
+  OBJECT_DIR = CMakeFiles\Test.dir
+  OBJECT_FILE_DIR = CMakeFiles\Test.dir\src\main\jni
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target Test
+
+
+#############################################
+# Link the shared library ..\..\..\..\build\intermediates\cmake\release\obj\armeabi-v7a\libTest.so
+
+build ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libTest.so: C_SHARED_LIBRARY_LINKER__Test CMakeFiles/Test.dir/src/main/jni/Test.c.o
+  LANGUAGE_COMPILE_FLAGS = -isystem E:/android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot E:/android/sdk/ndk-bundle/platforms/android-19/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -LE:/android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -latomic -lm
+  OBJECT_DIR = CMakeFiles\Test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  SONAME = libTest.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = ..\..\..\..\build\intermediates\cmake\release\obj\armeabi-v7a\libTest.so
+  TARGET_PDB = Test.so.dbg
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\workspace\git\NDK\app\.externalNativeBuild\cmake\release\armeabi-v7a && E:\android\sdk\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build edit_cache: phony CMakeFiles/edit_cache.util
+# =============================================================================
 # Target aliases.
 
 build Hello: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libHello.so
+build Test: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libTest.so
 build libHello.so: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libHello.so
+build libTest.so: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libTest.so
 build libnative-lib.so: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
 build native-lib: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so
 # =============================================================================
@@ -126,7 +157,7 @@ build native-lib: phony ../../../../build/intermediates/cmake/release/obj/armeab
 #############################################
 # The main all target.
 
-build all: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libHello.so
+build all: phony ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libHello.so ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libTest.so
 
 #############################################
 # Make the all target the default.

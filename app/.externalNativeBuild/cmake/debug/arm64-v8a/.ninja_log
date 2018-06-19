@@ -71,3 +71,13 @@
 56	84	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libHello.so	dfb9d939aa927086
 2	57	0	CMakeFiles/Hello.dir/src/main/jni/Hello.cpp.o	84553f2b381e8974
 57	85	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libHello.so	dfb9d939aa927086
+1	57	0	CMakeFiles/Hello.dir/src/main/jni/Hello.cpp.o	84553f2b381e8974
+57	85	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libHello.so	dfb9d939aa927086
+0	25	0	CMakeFiles/Test.dir/src/main/jni/Test.c.o	6b20a238a503204d
+25	50	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libTest.so	80f9996103ed1137
+1	219	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9efbd7920a964375
+219	275	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	6f2e91cd6f5677a4
+0	44	0	CMakeFiles/Test.dir/src/main/jni/Test.c.o	6b20a238a503204d
+44	70	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libTest.so	80f9996103ed1137
+0	33	0	CMakeFiles/Test.dir/src/main/jni/Test.c.o	6b20a238a503204d
+34	60	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libTest.so	80f9996103ed1137

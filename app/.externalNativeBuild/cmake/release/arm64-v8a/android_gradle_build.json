@@ -1,6 +1,7 @@
 
 {
 	"buildFiles" : [ "E:/workspace/git/NDK/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
 		"E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
@@ -24,6 +25,24 @@
 				}
 			],
 			"output" : "E:/workspace/git/NDK/app/build/intermediates/cmake/release/obj/arm64-v8a/libHello.so",
+			"toolchain" : "3139720905"
+		},
+		"Test-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "Test",
+			"buildCommand" : "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target Test",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=E:/android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/android/sdk/ndk-bundle/sysroot -DTest_EXPORTS  -isystem E:/android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "E:/workspace/git/NDK/app/src/main/jni/Test.c",
+					"workingDirectory" : "E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "E:/workspace/git/NDK/app/build/intermediates/cmake/release/obj/arm64-v8a/libTest.so",
 			"toolchain" : "3139720905"
 		},
 		"native-lib-Release-arm64-v8a" : 

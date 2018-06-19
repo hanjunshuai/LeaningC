@@ -12,6 +12,12 @@
       "abi": "arm64-v8a",
       "output": "E:\\workspace\\git\\NDK\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
     },
+    "Test-Debug-arm64-v8a": {
+      "artifactName": "Test",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target Test",
+      "abi": "arm64-v8a",
+      "output": "E:\\workspace\\git\\NDK\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libTest.so"
+    },
     "Hello-Debug-arm64-v8a": {
       "artifactName": "Hello",
       "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target Hello",

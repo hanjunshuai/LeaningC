@@ -195,6 +195,9 @@ Project_BINARY_DIR:STATIC=E:/workspace/git/NDK/app/.externalNativeBuild/cmake/de
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=E:/workspace/git/NDK/app
 
+//Dependencies for target
+Test_LIB_DEPENDS:STATIC=
+
 //Path to a library.
 log-lib:FILEPATH=E:/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64/liblog.so
 
