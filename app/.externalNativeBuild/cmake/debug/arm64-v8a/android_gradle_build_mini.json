@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "E:\\workspace\\git\\NDK\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\workspace\\git\\NDK\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    },
+    "Hello-Debug-arm64-v8a": {
+      "artifactName": "Hello",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\NDK\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target Hello",
+      "abi": "arm64-v8a",
+      "output": "E:\\workspace\\git\\NDK\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libHello.so"
+    }
+  }
+}

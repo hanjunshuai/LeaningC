@@ -1,0 +1,4 @@
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/Hello.dir
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

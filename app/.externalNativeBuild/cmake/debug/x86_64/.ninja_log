@@ -1,0 +1,23 @@
+# ninja log v5
+0	228	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+229	283	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+1	228	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+228	284	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+1	226	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+226	282	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+2	249	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+249	310	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+1	249	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+249	310	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+2	234	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+234	292	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+0	47	0	CMakeFiles/Hello.dir/src/main/jni/Hello.cpp.o	94161d488f46b32a
+47	87	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHello.so	390dcfa6c14be1be
+1	236	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+236	296	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+2	53	0	CMakeFiles/Hello.dir/src/main/jni/Hello.cpp.o	94161d488f46b32a
+53	99	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHello.so	390dcfa6c14be1be
+1	234	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	dec7dcf48b48497d
+234	291	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	de02da5fb5df3da8
+1	46	0	CMakeFiles/Hello.dir/src/main/jni/Hello.cpp.o	94161d488f46b32a
+46	86	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libHello.so	390dcfa6c14be1be
