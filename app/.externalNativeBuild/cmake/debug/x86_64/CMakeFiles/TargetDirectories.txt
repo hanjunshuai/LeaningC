@@ -1,0 +1,4 @@
+E:/workspace/git/LeaningC/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/native-lib.dir
+E:/workspace/git/LeaningC/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+E:/workspace/git/LeaningC/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/Test.dir
+E:/workspace/git/LeaningC/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir

@@ -1,5 +1,0 @@
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/native-lib.dir
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/Hello.dir
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/Test.dir
-E:/workspace/git/NDK/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir

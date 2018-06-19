@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "E:\\workspace\\git\\LeaningC\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\LeaningC\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "Test-Release-arm64-v8a": {
+      "artifactName": "Test",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\LeaningC\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target Test",
+      "abi": "arm64-v8a",
+      "output": "E:\\workspace\\git\\LeaningC\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libTest.so"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\git\\LeaningC\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\workspace\\git\\LeaningC\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}
